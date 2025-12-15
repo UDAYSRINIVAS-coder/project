@@ -1,4 +1,4 @@
-import { Education, Project, Certification, WorkExperience, Skill } from './types';
+import { Education, Certification, WorkExperience, Skill } from './types';
 
 export const profileData = {
   name: "Vidupulapati Uday Srinivas",
@@ -48,34 +48,6 @@ export const skills: Skill[] = [
   {
     category: "Development Tools",
     items: ["Git", "VS Code", "IntelliJ", "Eclipse", "NoSQL", "AWS"]
-  }
-];
-
-export const projects: Project[] = [
-  {
-    title: "Personal Safety Device",
-    period: "Jan 2025 – Feb 2025",
-    description: [
-      "Developed a compact safety system embedded in an ID card using NodeMCU and an inbuilt GPS module",
-      "Integrated a push-button alert feature that sends real-time danger notifications and live location data to predefined emergency contacts",
-      "Enabled remote monitoring and location tracking through a mobile controlled interface"
-    ]
-  },
-  {
-    title: "Employee Authentication System",
-    period: "May 2024 - May 2024",
-    description: [
-      "Built a Java-based secure authentication system with encryption",
-      "Improved efficiency through algorithm optimization"
-    ]
-  },
-  {
-    title: "Touchless Water Dispenser",
-    period: "Apr 2024 - May 2024",
-    description: [
-      "Designed a touchless system delivering hot, moderate, and cold water using IoT",
-      "Optimized for workplace and hospital hygiene"
-    ]
   }
 ];
 

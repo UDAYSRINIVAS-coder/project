@@ -1,5 +1,5 @@
 import { Calendar, ExternalLink } from 'lucide-react';
-import { projects } from '../data';
+import { projects } from '../types';
 
 export default function Projects() {
   return (
@@ -42,9 +42,12 @@ export default function Projects() {
                 <div className="flex flex-wrap gap-2">
                   {index === 0 && (
                     <>
-                      <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-lg text-sm">IoT</span>
-                      <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-lg text-sm">NodeMCU</span>
-                      <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-lg text-sm">GPS</span>
+                      <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-lg text-sm">Java</span>
+                      <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-lg text-sm">OOP Concepts</span>
+                      <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-lg text-sm">Collections (HashMap)</span>
+                      <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-lg text-sm">Exception Handling</span>
+                      <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-lg text-sm">Console I/O
+                    </span>
                     </>
                   )}
                   {index === 1 && (
